@@ -1,0 +1,501 @@
+*{
+    margin:0;padding:0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;margin:0 auto;
+}
+header{
+    height: 80px;
+    background-color: #195999;
+}
+header .logo{
+    width: 120px;
+    float: left;
+}
+header .logo img{
+    max-height: 80px;
+}
+.nav {
+    float: left;
+    margin-left: 200px;
+    line-height: 80px;
+    
+}
+.nav ul li{
+    float: left;
+    margin-left: 60px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.nav ul li a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+.language{
+    float: right;
+    width: 100px;
+    line-height: 80px;
+    font-size:22px;
+    /* margin-left: 180px; */
+}
+footer{
+    height: 60px;
+    margin:0 auto;
+    background-color: #195999;
+    text-align: center;
+    color:#fff;
+    line-height: 60px;
+}
+.clearf{
+    clear: both;
+}
+
+.title{
+    height: 52px;
+    width: 1200px;
+    margin: 20px auto;
+    font-size:28px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    border-bottom: 4px solid #ff6a00;
+    padding-bottom: 20px;
+}
+/*
+    about start
+*/
+.about_banner{
+    height: 150px;
+    background-image: url(../imgs/default-int-header1.jpg);
+    text-align: center;
+    color:#195999;
+    font-size: 36px;
+    font-weight: bold;
+    box-sizing: border-box;
+    line-height: 150px;
+}
+.about_company{
+    margin: 20px 0;
+    
+}
+.about_company .container{
+    background: #eee;
+}
+.about_company .teampic{
+    width: 432px;
+    float: left;
+}
+.about_company .teampic img{
+    width: 100%;
+}
+.about_company .teamdes{
+    width: 700px;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+    line-height: 35px;
+}
+
+.about_teams ul li{
+    list-style: none;
+}
+.about_teams ul li .pic{
+    float: left;
+    width: 260px;
+}
+.about_teams ul li .pic img{
+    height: 340px;
+    width: 230px;
+    object-fit: cover;
+}
+.about_teams ul li .desc{
+    float: right;
+    width:900px;
+}
+.about_teams ul li .desc .t{
+    border-bottom: 4px solid #ff6a00;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.about_teams ul li .desc .t h2{
+    margin-bottom: 10px;
+}
+.about_teams ul li .desc .n{
+    line-height: 26px;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+.about_teams ul li .desc .n p{
+    margin: 5px 0;
+}
+.contact_form{
+    height: 69vh;
+}
+.contact_form form{
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.contact_form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 5px 4px;
+    letter-spacing: normal;
+    display: block;
+    width: 800px;
+    margin: 10px 0;
+}
+.contact_form  textarea {
+    height: 160px;
+    width: 810px;
+    padding: 6px 8px;
+    line-height: 1.5;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.contact_form input[type="submit"] {
+    background: #195999;
+    color: #ffffff!important;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 6px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    margin-top: 20px;
+}
+
+.service_cases{
+
+}
+.service_cases .p{
+    width: 560px;
+    float: left;
+}
+.service_cases .p img{
+    width: 560px;
+}
+.service_cases .n {
+    width: 460px;
+    float: right;
+    margin-right: 40px;
+}
+.service_cases .n li{
+    margin: 20px 0;
+}
+
+
+.jihui ul {
+    width: 500px;
+    float: left;
+}
+.jihui ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+.jihui img{
+    float: right;
+}
+
+.taozhan ul li{
+    list-style: none;
+    float: left;
+    display: block;
+    width: 600px;
+}
+.taozhan ul li img{
+    width: 100%;
+    height: 300px;
+}
+
+.taozhan ul li p{
+    background-color: #eee;
+    color: #ff6a00;
+    height: 80px;
+    width: 600px;
+    text-align: center;
+    margin-top: -5px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.taozhan ul li p span{
+    color:#000;
+    display: block;
+    padding-top: 5px;;
+}
+
+.homebanner{
+    height: 400px;
+    background-image: url(../imgs/hero-bg.jpg);
+    background-size: cover;
+}
+h1, .h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 38px;
+    font-weight: 200;
+    line-height: 1.5;
+    color: #195999;
+    margin: 0 0 10px 0;
+}
+
+a.cta-btn {
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    display: inline-block;
+    color: #fff;
+    background: #fa0d30;
+    padding: 4px 32px;
+    margin: 30px auto 0;
+}
+
+.hero-text .ghost-btn {
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: solid 1px #093662;
+    color: #093662;
+    padding: 4px 32px;
+    margin: 0 0 0 20px;
+    display: inline-block;
+}
+.hero-text{
+    box-sizing: border-box;
+    width: 700px;
+    float: left;
+    margin-top: 80px;
+}
+
+/*pipeline start*/
+.pipeline_org{
+    margin-bottom: 20px;
+}
+.pipeline_org ul li {
+    display: block;
+    list-style-type: none;
+    width: 230px;
+    height: 120px;
+    float: left;
+    background-color: #eee;
+    margin-left: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.pipeline_org ul li:nth-child(1)
+{
+    margin-left:0;
+}
+.pipeline_org li dl dt{
+    font-size:26px;
+    font-weight: bold;
+}
+.pipeline_fenfa{
+    height: 246px;
+}
+.pipeline_fenfa ul li {
+    list-style: none;
+    width: 390px;
+    float: left;
+    margin-left:15px;
+    background-color: #eee;
+    height: 230px;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pipeline_fenfa ul li:nth-child(1) {
+    margin-left:0;
+}
+.pipeline_fenfa ul li dt{
+    background-color: #195999;
+    height: 50px;
+    line-height: 50px;
+    color:#fff;
+    text-align: center;
+}
+.pipeline_fenfa ul li dd{
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.retail {
+    margin-bottom: 30px;
+}
+.retail ul li{
+    display: block;
+    width: 240px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    float: left;
+    border-left:1px solid #938e8e;
+    border-top: 1px solid #938e8e;
+    border-bottom:1px solid #938e8e;
+    box-sizing: border-box;
+}
+
+.retail ul li:nth-child(5){
+    border-right: 1px solid #938e8e;
+}
+/*pipeline end*/
+.license ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.email{
+    height: 80px;
+    line-height: 80px;
+}
+.email span{
+   position: relative;
+   top:-8px;
+   left:20px;
+}
+
+@media screen and (max-width:600px){
+    header{
+        height: 100%;
+    }
+    .container{
+        width: 90vw;
+        margin: 0 auto;
+    }
+    header .logo{
+        width: 90vw;
+        float: none;
+    }
+    .nav{
+        width: 90vw;
+        display: flex;
+        float: none;
+        margin:  0 auto;
+    }
+    .language{
+        width: 100%;
+        float: none;
+    }
+    .language button{
+        margin:  0 auto;
+    }
+    .container::after{
+        display: table;
+        content:'';
+        clear:both;
+    }
+    .title{
+        width: 90vw;
+        height: 100%;
+        text-align: center;
+    }
+    /*about*/
+    .about_teams ul li .pic{
+        float: none;
+    }
+    .about_teams ul li .desc{
+        float: none;
+        width: 90vw;
+    }
+    .about_teams ul li .pic img{
+        width: 90vw;
+        height: 100%;
+    }
+    .about_company .teampic{
+        float: none;
+        width: 90vw;
+    }
+    .about_company .teamdes{
+        width: 90vw;
+    }
+    /*about end*/
+    /*service start*/
+    .jihui ul{
+        float: none;
+        width: 90vw;
+    }
+    .jihui img{
+        float: none;
+        width: 90vw;
+    }
+    .about_banner{
+        height: 15vh;
+        line-height: 15vh;
+    }
+    .taozhan ul li img{
+        width: 90vw;
+    }
+    .taozhan ul li p{
+        width: 90vw;
+    }
+    .service_cases .p img{
+        width: 90vw;
+        overflow: hidden;
+    }
+    .service_cases .n{
+        float: none;
+        width: 90vw;
+    }
+    .service_cases .p{
+        float: none;
+        width: 90vw;
+    }
+
+    /*contact start*/
+    .contact_form form{
+        width: 90vw;
+    }
+    .contact_form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){
+        width: 70vw;
+    }
+    .contact_form textarea{
+        width: 73vw; 
+    }
+    /*pipeline start*/
+    .pipeline_org ul li{
+        width: 90vw;
+        float: none;
+        margin-top: 6vw;
+        margin-left: 0;
+    }
+    .pipeline_fenfa{
+        height: 100%;
+    }
+    .pipeline_fenfa ul li{
+        width: 90vw;
+        float: none;
+        margin-left: 0;
+        margin-top: 2vh;
+    }
+    .retail ul li{
+        width: 90vw;
+        border: 1px solid #eee;
+    }
+    .retail ul li:nth-child(5){
+        border: 1px solid #eee;
+    }
+    /*hone*/
+    .homebanner
+    {
+        height: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .hero-text{
+        width: 90vw;
+    }
+    .email{
+        height: 100%; 
+    }
+    .long{
+        height: 46vh;
+        line-height:  10vh;
+    }
+}
